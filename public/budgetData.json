@@ -1,0 +1,17 @@
+[
+    {
+        "category": "Groceries",
+        "amount": 200.00,
+        "date": "2024-01-01"
+    },
+    {
+        "category": "Utilities",
+        "amount": 800.00,
+        "date": "2024-02-15"
+    },
+    {
+        "category": "Entertainment",
+        "amount": 150.00,
+        "date": "2024-03-10"
+    }
+]

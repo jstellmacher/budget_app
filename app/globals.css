@@ -1,0 +1,30 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #ffffff; /* Light background */
+    --foreground: #000000; /* Light text color */
+}
+
+.dark {
+    --background: #0a0a0a; /* Dark background */
+    --foreground: #ffffff; /* Dark text color */
+}
+
+/* Apply the variables to the body */
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for cards or divs */
+.card {
+    background: var(--background);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, color 0.3s; /* Smooth transition for background and color */
+}
